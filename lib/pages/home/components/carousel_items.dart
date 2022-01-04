@@ -14,7 +14,7 @@ List<CarouselItemModel> carouselItems = List.generate(
         mainAxisSize: MainAxisSize.min,
         children: [
           Text(
-            "PRODUCT DESIGNER",
+            "MOBILE APP ENGINEER x BLOCKCHAIN DEV",
             style: GoogleFonts.oswald(
               color: kPrimaryColor,
               fontWeight: FontWeight.w900,
@@ -25,7 +25,7 @@ List<CarouselItemModel> carouselItems = List.generate(
             height: 18.0,
           ),
           Text(
-            "MICHELE\nHARRINGTON",
+            "MUBARAK\nHAMMED",
             style: GoogleFonts.oswald(
               color: Colors.white,
               fontSize: 40.0,
@@ -37,7 +37,7 @@ List<CarouselItemModel> carouselItems = List.generate(
             height: 10.0,
           ),
           Text(
-            "Full-stack developer, based in Barcelona",
+            "Mobile App developer | Android | iOS | Native Android and Flutter",
             style: TextStyle(
               color: kCaptionColor,
               fontSize: 15.0,
@@ -51,7 +51,7 @@ List<CarouselItemModel> carouselItems = List.generate(
             child: Wrap(
               children: [
                 Text(
-                  "Need a full custom website?",
+                  "I build smart contracts too with ",
                   style: TextStyle(
                     color: kCaptionColor,
                     fontSize: 15.0,
@@ -63,7 +63,7 @@ List<CarouselItemModel> carouselItems = List.generate(
                   child: MouseRegion(
                     cursor: SystemMouseCursors.click,
                     child: Text(
-                      " Got a project? Let's talk.",
+                      "Solidity.",
                       style: TextStyle(
                         height: 1.5,
                         color: Colors.white,
@@ -107,7 +107,7 @@ List<CarouselItemModel> carouselItems = List.generate(
     ),
     image: Container(
       child: Image.asset(
-        "assets/person.png",
+        "assets/color.png",
         fit: BoxFit.contain,
       ),
     ),

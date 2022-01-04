@@ -10,26 +10,24 @@ final List<FooterItem> footerItems = [
   FooterItem(
     iconPath: "assets/mappin.png",
     title: "ADDRESS",
-    text1: "999 Carter Street",
-    text2: "Sailor Springs, IL 64234",
+    text1: "22 Cigo Estate",
+    text2: "Apete Ibadan, Nigeria",
   ),
   FooterItem(
     iconPath: "assets/phone.png",
     title: "PHONE",
-    text1: "+1 618-689-9604",
-    text2: "+1 781-689-9632",
+    text1: "+234 9154 9823 65",
+    text2: "+234 7082 1364 63",
   ),
   FooterItem(
     iconPath: "assets/email.png",
     title: "EMAIL",
-    text1: "hello@example.com",
-    text2: "info@flutterpanda.com",
+    text1: "mubarakhammed@gmail.com.com",
   ),
   FooterItem(
     iconPath: "assets/whatsapp.png",
     title: "WHATSAPP",
-    text1: "+234 901-134-0095",
-    text2: "+234 901-134-0095",
+    text1: "++234 9154 9823 65",
   )
 ];
 
@@ -138,7 +136,7 @@ Widget _buildUi(double width, BuildContext context) {
                   Padding(
                     padding: EdgeInsets.only(bottom: 8.0),
                     child: Text(
-                      "Copyright (c) 2021 Michele Harrington. All rights Reserved",
+                      "Copyright (c) 2021 Mubarak Hammed. All rights Reserved",
                       style: TextStyle(
                         color: kCaptionColor,
                       ),
